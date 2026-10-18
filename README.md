@@ -63,11 +63,15 @@ Share a lesson with a link that anyone can open in a browser to study it.
   local notifications don't run on the web.
 - **Share link:** a "Share" action on a lesson publishes a read-only copy (core
   points + questions) and returns a link like `https://<host>/l/<lessonId>`.
-- **On the web page, visitors can:**
-  - read the lesson's core points,
-  - try the questions: question first, then options, then the written answer,
-    same flow as the app,
-  - with no reminders and no spaced schedule (a free-practice session).
+- **The shared lesson page has two parts:**
+  - **Summary in points:** the lesson's core as a clean, readable list, grouped
+    by kind (principles, rules, warnings, practical steps). Works as a quick
+    reference you can read in a minute.
+  - **Interactive questions page:** one question at a time, same flow as the
+    app: the question first, then tappable options with instant right/wrong
+    feedback, then the written answer on demand. Shows progress, a score at the
+    end, and an option to retry the questions you got wrong.
+  - No reminders and no spaced schedule on the web (free practice only).
 - **Install invitation:** a banner inviting visitors to install the app. Tapping
   "Add to my lessons" opens the app via a deep link (Android App Links / iOS
   Universal Links) and imports the lesson into the visitor's library, with
